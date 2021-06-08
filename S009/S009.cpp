@@ -20,6 +20,7 @@ int main()
 	std::cin.getline(mask, 255);
 	std::cout << "Replace to: ";
 	std::cin.getline(replace, 255);
+	masksize();
 	FindMask(0);
 	Replace();
 	std::cout << "Result: " << newinp;
